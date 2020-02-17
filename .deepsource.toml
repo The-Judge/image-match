@@ -3,3 +3,9 @@ version = 1
 [[analyzers]]
 name = "docker"
 enabled = true
+
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
